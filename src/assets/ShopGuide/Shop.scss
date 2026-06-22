@@ -1,0 +1,114 @@
+.img-shop {
+    position: relative; 
+
+    img:first-child {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+.top-panel {
+    position: absolute;
+        top: 20px;
+        left: 160px;
+        right: 160px;           
+        display: flex;         
+        align-items: center;   
+        justify-content: space-between;
+        z-index: 2;
+}
+    .icon {
+        display: flex;
+        gap: 10px;
+
+
+        img {
+            width: 53px;
+            height: 53px;
+            cursor: pointer;
+        }
+    }
+}
+
+.btn-shop {
+    padding: 10px 20px;
+    width: 216px;
+    height: 53px;
+    border-radius: 5px;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+    cursor: pointer;
+}
+
+.phone {
+    position: absolute;
+    bottom: 0;
+    left: 992px;
+    z-index: 1;
+
+    img {
+        width: 340px;
+        height: 697px;
+    }
+}
+
+.menu-shop {
+    position: absolute;
+    top: 312px;          
+    left: 268px;         
+    z-index: 3; 
+
+    img {
+        width: 485px;
+        height: 113px;
+
+    }
+}
+
+.menu-entry {
+    position: absolute;
+    top: 275px;
+    left: 541px;
+    z-index: 4;
+
+
+    img {
+        width: 244px;
+        height: 52px;
+
+    }
+}
+
+.btn-app {
+    position: absolute;
+     background: transparent;
+    top: 454px;
+    left: 268px;
+    z-index: 5;
+    width: 224px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-radius: 10px;
+
+    img {
+        
+        width: 34px !important;
+        height: 42px !important;
+    }
+
+}
+
+.btn-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.btn-title {
+    color: white;
+
+}

@@ -82,7 +82,7 @@
 .btn-app {
     position: absolute;
      background: transparent;
-    top: 454px;
+    top: 445px;
     left: 268px;
     z-index: 5;
     width: 224px;
@@ -92,6 +92,7 @@
     justify-content: center;
     gap:10px;
     border-radius: 10px;
+    cursor: pointer;
 
     img {
         
@@ -106,9 +107,90 @@
     flex-direction: column;
     justify-content: center;
     color:white;
+    font-size: 15px;
 }
 
 .btn-title {
     color: white;
+    font-size: 30px;
 
+}
+
+
+.btn-play {
+    position: absolute;
+    background: transparent;
+    top: 445px;
+    left: 512px;
+    z-index: 6;
+    width:224px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    img {
+        width:34px !important;
+        height: 42px !important;
+    }
+
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-size: 15px;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+}
+
+.btn-down {
+    position: absolute;
+    background: transparent;
+    top: 770px;
+    left: 662px;
+    right: 661px;
+    width: 277px;
+    height: 51px;
+    z-index: 7;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+
+    img {
+        width: 27px !important;
+        height: 12px !important;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+}
+
+.down-subtitle {
+    display: flex;
+    align-items: flex-start;
+   font-size: 15px;
+   color: white;
+
+}
+
+
+.down-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color:white;
+  
 }

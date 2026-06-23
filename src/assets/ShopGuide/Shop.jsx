@@ -36,6 +36,20 @@ function Shop() {
                 </div>
             </button>
 
+            <button className='btn-play'>
+                <img src="block 1/Group.png" alt="" />
+                <div className='btn-info'>
+                    <span className='subtitle'>GET IT ON</span>
+                    <span className="text">Google Play</span>
+                </div>
+            </button>
+
+            <button className='btn-down'>
+                 <span className='down-subtitle'>ВНИЗ</span>
+                <img src="block 1/Vector 1.png" alt="" />
+                <span className='down-title'>ВНИЗ</span>
+            </button>
+
 
         </div>
 

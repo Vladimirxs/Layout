@@ -1,13 +1,17 @@
 .img-shop {
     position: relative; 
+   
 
-    img:first-child {
+    > img:first-child {        
         display: block;
         width: 100%;
         height: auto;
     }
-.top-panel {
-    position: absolute;
+
+
+   
+    .top-panel {
+        position: absolute;
         top: 20px;
         left: 160px;
         right: 160px;           
@@ -15,11 +19,13 @@
         align-items: center;   
         justify-content: space-between;
         z-index: 2;
-}
+    }
+    
+
+
     .icon {
         display: flex;
         gap: 10px;
-
 
         img {
             width: 53px;
@@ -34,9 +40,9 @@
     width: 216px;
     height: 53px;
     border-radius: 5px;
-     background: transparent;
-     border: 2px solid white;
-     color: white;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
     cursor: pointer;
 }
 
@@ -61,7 +67,6 @@
     img {
         width: 485px;
         height: 113px;
-
     }
 }
 
@@ -71,17 +76,15 @@
     left: 541px;
     z-index: 4;
 
-
     img {
         width: 244px;
         height: 52px;
-
     }
 }
 
 .btn-app {
     position: absolute;
-     background: transparent;
+    background: transparent;
     top: 445px;
     left: 268px;
     z-index: 5;
@@ -90,32 +93,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
     border-radius: 10px;
     cursor: pointer;
 
-    img {
-        
-        width: 34px !important;
-        height: 42px !important;
+    > img {                    
+        width: 34px;
+        height: 42px;
     }
-
+    
+    .btn-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+    
+    .btn-subtitle {
+        font-size: 13px;
+        opacity: 0.8;
+    }
+    
+    .btn-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
-
-.btn-subtitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color:white;
-    font-size: 15px;
-}
-
-.btn-title {
-    color: white;
-    font-size: 30px;
-
-}
-
 
 .btn-play {
     position: absolute;
@@ -123,38 +126,40 @@
     top: 445px;
     left: 512px;
     z-index: 6;
-    width:224px;
+    width: 224px;
     height: 64px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     border-radius: 10px;
     cursor: pointer;
 
-    img {
-        width:34px !important;
-        height: 42px !important;
+    > img {                    
+        width: 34px;
+        height: 42px;
     }
-
-}
-
-.subtitle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: white;
-    font-size: 15px;
-}
-
-.text {
-    color: white;
-    font-size: 30px;
+    
+    .btn-text {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .subtitle {
+        display: flex;
+        font-size: 13px;
+        color: white;
+    }
+    
+    .text {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
 }
 
 .btn-down {
     position: absolute;
-    background: transparent;
     top: 770px;
     left: 662px;
     right: 661px;
@@ -169,28 +174,27 @@
     gap: 15px;
     cursor: pointer;
 
-    img {
-        width: 27px !important;
-        height: 12px !important;  
+    > img {                    
+        width: 27px;
+        height: 12px;
+    }
+    
+    .btn-text {
         display: flex;
         flex-direction: column;
-        align-items: center;   
+        color: white;
     }
-}
-
-.down-subtitle {
-    display: flex;
-    align-items: flex-start;
-   font-size: 15px;
-   color: white;
-
-}
-
-
-.down-title {
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    color:white;
-  
+    
+    .down-subtitle {
+        color:white;
+        font-size: 14px;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+    
+    .down-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+    }
 }

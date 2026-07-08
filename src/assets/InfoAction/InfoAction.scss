@@ -1,0 +1,47 @@
+.info-action-banner {
+    position: relative;
+    height: 600px;
+}
+
+.heading-our-promotions {
+    position: absolute;
+    top: 319px;
+    left: 266px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+
+
+.info-our-promotions {
+    position: absolute;
+    font-size: 24px;
+    top: 388px;
+    left: 266px;
+}
+
+
+.img-one-banner {
+    position: absolute;
+    top: -40px;
+    left: 807px;
+    z-index: 1;
+
+    img {
+        width: 402px;
+        height: 778px;
+    }
+}
+
+
+.img-two-banner {
+    position: absolute;
+    top: 86px;
+    left: 1034px;
+
+    img {
+        width: 349px;
+        height: 544px;
+    }
+}

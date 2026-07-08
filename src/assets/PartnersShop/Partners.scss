@@ -1,0 +1,53 @@
+.our-partners-shop {
+    position: relative;
+}
+
+
+.img-partners {
+    position: absolute;
+    top: 135px;
+
+    img {
+        width: 1570px;
+        height: 189px;
+    }
+}
+
+
+
+.our-partners {
+    position: absolute;
+    font-size: 32px;
+    color: #EB645A;
+    top: 68px;
+    left: 640px;
+}
+
+
+.info-partners {
+    position: absolute;
+    font-size: 24px;
+    top: 384px;
+    left: 575px;
+    text-align: center;
+    
+}
+
+
+.btn-partners {
+    position: absolute;
+    top: 474px;
+    left: 630px;
+    border-radius: 10px;
+    border: none;
+    width: 336px;
+    height: 60px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: aqua;
+    cursor: pointer;
+
+    &:active {
+        transform: scale(0.95); 
+    }
+}

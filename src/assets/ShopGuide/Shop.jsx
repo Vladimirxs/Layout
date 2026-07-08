@@ -29,7 +29,7 @@ function Shop() {
             </div>
 
             <button className='btn-app'>
-                <img  src="block 1/Vector.png" alt="" />
+                <img className='icon-app' src="block 1/Vector.png" alt="" />
                 <div className='btn-text'>
                     <span className="btn-subtitle">Download on the</span>
                     <span className="btn-title">App Store</span>
@@ -49,17 +49,9 @@ function Shop() {
                 <img src="block 1/Vector 1.png" alt="" />
                 <span className='down-title'>ВНИЗ</span>
             </button>
-
-
         </div>
-
-
     )
 }
-
-
-
-
 
 
 export default Shop;

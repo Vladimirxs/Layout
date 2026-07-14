@@ -4,7 +4,7 @@ import './Shop.scss';
 function Shop() {
     return (
         <div className="img-shop">
-            <img src="block 1/Layer 1 copy 1.png" alt="" />
+            <img  className="img-fon" src="block 1/Layer 1 copy 1.png" alt="" />
             <div className='top-panel'>
             <div className="icon">
                 <img src="block 1/Property 1=VK.png" alt="D" />

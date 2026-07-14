@@ -198,3 +198,70 @@
         color: white;
     }
 }
+
+@media (max-width: 480px) {
+    .img-fon {
+        width: 390px !important;
+        height: 709px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon,
+    .btn-shop,
+    .phone {
+        display: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-entry {
+         width: 244px;
+         height: 40px;
+         top: 191px;
+        left: 145px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-shop  {
+        top: 232px;
+        left: 30px;
+        text-align: center;
+
+        img {
+            width: 351px;
+        height: 67px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-app {
+        top: 357px;
+        left: 100px;
+        width: 224px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-play {
+        top: 441px;
+        left: 100px;
+        width: 224px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-down {
+        top: 684px;
+        left: 60px;
+        width: 277px;
+        height: 51px;
+    }
+
+}
+
+

@@ -25,7 +25,7 @@ function Shop() {
             </div>
 
             <div className='menu-entry'>
-                <img src="block 1/Frame 2.png" alt="" />
+                <img className="img-entry" src="block 1/Frame 2.png" alt="" />
             </div>
 
             <button className='btn-app'>

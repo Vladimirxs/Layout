@@ -1,5 +1,6 @@
 .img-shop {
-    position: relative; 
+    position: relative;
+     
    
 
     > img:first-child {        
@@ -199,69 +200,21 @@
     }
 }
 
+
+
 @media (max-width: 480px) {
+    .img-shop, 
     .img-fon {
-        width: 390px !important;
-        height: 709px !important;
+        width: 100%;
+        height: auto;
+        max-height: 100vh;  
     }
-}
-
-@media (max-width: 480px) {
-    .icon,
-    .btn-shop,
-    .phone {
-        display: none !important;
-    }
-}
-
-@media (max-width: 480px) {
-    .menu-entry {
-         width: 244px;
-         height: 40px;
-         top: 191px;
-        left: 145px;
-    }
-}
-
-@media (max-width: 480px) {
-    .menu-shop  {
-        top: 232px;
-        left: 20px;
-        text-align: center;
-
-        img {
-            width: 351px;
-        height: 67px;
-        }
-    }
-}
-
-@media (max-width: 480px) {
-    .btn-app {
-        top: 357px;
-        left: 90px;
-        width: 224px;
-        height: 64px;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn-play {
-        top: 441px;
-        left: 90px;
-        width: 224px;
-        height: 64px;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn-down {
-        top: 684px;
-        left: 60px;
-        width: 277px;
-        height: 51px;
     }
 
-}
+
+
+
+
+
 
 

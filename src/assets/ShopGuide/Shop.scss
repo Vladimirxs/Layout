@@ -1,13 +1,9 @@
 .img-shop {
     position: relative;
-  
-     
-   
 
     > img:first-child {        
         display: block;
-        width: 100%;
-        height: auto;
+        width: 100%;   
     }
 
 
@@ -205,15 +201,16 @@
 
 @media (max-width: 480px) {
     .img-shop, 
-    .img-fon {
+    .img-fon  {
         width: 100%;
+        height: 709px;
+        
     }
     }
 
     @media (max-width: 480px) {
-        .icon,
-        .btn-shop {
-            display: none !important;
+        .top-panel {
+            display: none ;
         }
     }
 

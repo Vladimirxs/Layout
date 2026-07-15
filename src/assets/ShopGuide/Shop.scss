@@ -1,5 +1,6 @@
 .img-shop {
     position: relative;
+  
      
    
 
@@ -206,9 +207,14 @@
     .img-shop, 
     .img-fon {
         width: 100%;
-        height: auto;
-        max-height: 100vh;  
     }
+    }
+
+    @media (max-width: 480px) {
+        .icon,
+        .btn-shop {
+            display: none !important;
+        }
     }
 
 
